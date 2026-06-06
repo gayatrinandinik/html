@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display</title>
+<style>
+    .displayBlock{
+        display:block;
+        background-color:lightblue;
+    }
+    .displayBlockOutput{
+       display: block; 
+       background-color: chartreuse;
+    }
+    .displayinline{
+        display:inline;
+        background-color: rgb(230, 192, 173);
+    }
+    .displayinlineoutput{
+        display: block;
+        background-color: chartreuse;
+    }
+    .dispalyinlineblock{
+        display: inline-block;
+        width: 159px;
+        height: 106px;
+        background-color: lightblue;
+    }
+    .dispalyinlineblockoutput{
+        display: inline-block;
+        background-color: chartreuse;
+    }
+    .displaynone{
+        display: none;
+    }
+    .displaynoneoutput{
+        display: none;
+    }
+</style>
+    </head>
+    <body>
+<h1>Display Block</h1>
+<div class="displayBlock">
+    <p>Exaplantion:</p>
+    <p>display:block takes full width and starts on new line.</p>
+</div>
+<div class="displayBlockOutput">
+    <p>Expected output:</p>
+    <p>Each div appears on seperate line with full width.</p><br>
+</div>
+<h1>Display Inline</h1>
+<div class="displayinline">
+    <p>Exaplantion:</p>
+    <p>display:inlinke keeps element in same line.</p>
+</div>
+<div class="displayinlineoutput">
+    <p>Expected output</p>
+    <p>Text appears side by side in same line.</p>
+</div>
+<h1>Display Inline-block</h1>
+<div class="dispalyinlineblock">
+    <p>Exaplantion:</p>
+    <p>Allow width and height while staying inline.</p>
+</div>
+<div class="dispalyinlineblockoutput">
+    <p>Expected output:</p>
+    <p>Boxes appearsside by side</p>
+</div>
+<h1>Display None</h1>
+<div class="displaynone">
+    <p>Exaplantion:</p>
+    <p>Hides element completely.</p>
+</div>
+<div class="displaynoneoutput">
+    <p>Expected output:</p>
+    <p>Hidden element will not appears.</p>
+</div>
+    </body>
+</html>
