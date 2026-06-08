@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex</title>
+        <style>
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+            .container{
+                flex-wrap: wrap;
+            }
+            .item{
+                flex-grow: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flex Direction</h1>
+        <div class="container">
+            <p>Exaplantion:</p>
+            <p>Controls row or colum layout</p>
+        </div>
+        <div class="output">
+            <p>Expected output:</p>
+            <p>Items appear horizontally. </p>
+        </div>
+        <h1>Flex Wrap</h1>
+        <div class="container">
+            <p>Exaplantion:</p>
+            <p>moves iteams to next line.</p>
+        </div>
+        <div class="output">
+            <p>Expected output:</p>
+            <p>Items wrap automatically.</p>
+        </div>
+        <h1>Flex Grow</h1>
+        <div class="item">
+            <p>Exaplantion:</p>
+            <p>Allows item growth.</p>
+        </div>
+        <div class="output">
+            <p>Expected output:</p>
+            <p>Item takes remainind space.</p>
+        </div>
+    </body>
+</html>
