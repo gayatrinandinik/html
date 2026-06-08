@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position</title>
+        <style>
+            .box{
+                position: static;
+                color: aqua;
+            }
+            .box{
+                position: relative;
+                left: 50px;
+            }
+            ,box{
+
+            }
+            .box{
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            .box{
+                position: fixed;
+                bottom: 20px;
+            }
+            .header{
+                position: sticky;
+                top: 0;
+            }
+        </style>
+    </head>
+    <body>
+         <h1>Position Static</h1>
+         <div class="box">
+            <p>Exaplantion:</p>
+            <p>Default webpage positioning.</p>
+         </div>
+         <div class="output">
+            <p>Expected output:</p>
+            <p>Element appears normally</p>
+         </div>
+         <h1>Position Relative</h1>
+         <div class="box">
+            <p>Exaplantion:</p>
+            <p>moves relative to original position.</p>
+         </div>
+         <div class="output">
+            <p>Expected output:</p>
+            <p>Element shifts right by 50px.</p>
+         </div>
+         <h1>Position Absolute</h1>
+         <div class="box">
+            <p>Exaplantion:</p>
+            <p>Moves relative to parent.</p>
+         </div>
+         <div class="output">
+            <p>Expected output:</p>
+            <p>Elementappears top-right.</p>
+         </div>
+         <h1>Position Fixed</h1>
+         <div class="box">
+            <p>Exaplantion:</p>
+            <p>Stays fixe during scroll.</p>
+         </div>
+         <div class="output">
+            <p>Expected output:</p>
+            <p>Element remains visible while scrolling.</p>
+         </div>
+         <h1>Position Sticky</h1>
+         <div class="box">
+            <p>Exaplantion:</p>
+            <p>Becomes fixed when scrolling.</p>
+         </div>
+         <div class="output">
+            <p>Expected output</p>
+            <p>Header sticks to top.</p>
+         </div>
+    </body>
+</html>
