@@ -9,6 +9,12 @@
             .item{
                 align-self: flex-end;
             }
+            .container{
+                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            }
+            .container{
+                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            }
         </style>
     </head>
     <body>
@@ -29,6 +35,24 @@
         <div class="output">
             <p>Expected output:</p>
             <p>Single item moves downward.</p>
+        </div>
+        <h1>Auto Fit</h1>
+        <div class="container">
+            <p>Exaplantion</p>
+            <p>Responsive columns.</p>
+        </div>
+        <div class="output">
+            <p>Expected</p>
+            <p>Columns resize automaticalliy.</p>
+        </div>
+        <h1>Auto Fill</h1>
+        <div class="container">
+            <p>Exaplantion</p>
+            <p>Fills available columns.</p>
+        </div>
+        <div class="output">
+            <p>Expected</p>
+            <p>Extra columns created automaticalliy.</p>
         </div>
     </body>
 </html>
