@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+}
+.box{
+background-color:rgb(173, 223, 230);
+}
+.display{
+    background-color:white;
+    margin: auto;       
+    width: 35%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    color: green;
+}
+#btnSubmit{
+    background-color:green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+}
