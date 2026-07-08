@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="DynamicClass2.css">
+    <script>
+        function onclickCSSAdd(){
+           document.getElementById("divBlock").classList.add("div-border");
+        }
+        function onclickCSSRemove(){
+            document.getElementById("divBlock").classList.remove("div-border");
+        }
+        function onclickCSSToggle(){
+            document.getElementById("divBlock").classList.toggle("div-border");
+        }
+
+    </script>
+    </head>
+    <body>
+        <div id="divBlock">
+        <h1 id="h1DynamicClass2Add">DynamicClass2Add</h1>
+        <p id="pFunction">this is some information to students</p>
+        <button id="btnCSSAdd" onclick="onclickCSSAdd()">CSSAdd</button>
+        <button id="btnCSSRemove" onclick="onclickCSSRemove()">CSSRemove</button>
+        <button id="btnCSSToggle" onclick="onclickCSSToggle()">CSSToggle</button>
+        </div>
+    </body>
+</html>
