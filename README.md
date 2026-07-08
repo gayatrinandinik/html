@@ -5,7 +5,17 @@ Hyper text markout language
 <!doctype html>
 <html></html>
 <head></head>
-<body></body>
+<body>
+        <header>
+            <h1>{page name }</h1>
+            <a href=index.html>Back to home page></a>
+        </header>
+        <hr> <hr>
+        <footer>
+            <p> @ design by gayatri</p>
+            <p> # Medsquire</p>
+        </footer>
+    </body>
 <title></title>
 header tags <h1></h1>,<h2></h2>,<h3></h3>,<h4></h4>,<h5></h5>,<h6></h6>
 paragraph tag <p></p>
